@@ -39,3 +39,10 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('as
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('assetsdetailpage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties><property key="maxElemForItem">5</property><property key="contentType">AST</property><property key="modelId">2</property></properties>
 ');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',1,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="navSpec">code(homepage)</property></properties>
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',2,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',7,'content_viewer',NULL);

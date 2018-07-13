@@ -18,16 +18,6 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="en">Home</property>
 <property key="it">Home</property>
 </properties>','home',1,NULL,'2017-02-18 00:12:24');
-INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('assetsdetailpage','<?xml version="1.0" encoding="UTF-8"?>
-<properties><property key="en">assetsDetailPage</property><property key="it">assetsDetailPage</property></properties>
-','entando-page-inspinia',1,'<?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <useextratitles>false</useextratitles>
-  <charset>utf-8</charset>
-  <mimeType>text/html</mimeType>
-</config>
-
-','2018-07-13 09:04:42');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('contactus','<?xml version="1.0" encoding="UTF-8"?>
 <properties><property key="en">contactus</property><property key="it">contactus</property></properties>
 ','entando-page-bootstrap-hero',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -84,3 +74,23 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 </config>
 
 ','2018-07-13 11:13:40');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('assetsdetailpage','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="en">assetsDetailPage</property><property key="es">Activos</property></properties>
+','entando-page-bootstrap-hero',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-07-13 12:48:15');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('assetssearchresults','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="en">assetsSearchResults</property><property key="es">assetsSearchResults</property></properties>
+','entando-page-bootstrap-hero',0,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-07-13 12:52:34');

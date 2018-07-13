@@ -8,3 +8,4 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('assetsdetailpage','ho
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('contactus','homepage',4,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('faq','homepage',5,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('assetshome2','homepage',6,'administrators');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('assetssearchresults','homepage',7,'free');

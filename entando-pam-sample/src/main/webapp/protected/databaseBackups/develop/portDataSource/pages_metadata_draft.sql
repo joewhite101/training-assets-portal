@@ -83,4 +83,14 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-07-13 11:54:44');
+','2018-07-13 12:48:15');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('assetssearchresults','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="en">assetsSearchResults</property><property key="es">assetsSearchResults</property></properties>
+','entando-page-bootstrap-hero',0,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-07-13 12:55:01');

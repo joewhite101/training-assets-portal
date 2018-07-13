@@ -1,4 +1,1 @@
-INSERT INTO api_oauth_tokens (accesstoken,clientid,expiresin,refreshtoken,granttype,localuser) VALUES ('909c107714118dbaf7f780bb6adf7c68','LOCAL_USER','2018-07-13 11:41:01','81de64775d518ab89f378e524717979c','implicit','admin');
-INSERT INTO api_oauth_tokens (accesstoken,clientid,expiresin,refreshtoken,granttype,localuser) VALUES ('0d4021a6a6ff8bf6122e9c854b35e21c','LOCAL_USER','2018-07-13 11:47:18','30ccb14817906b4ef456d0b550f45380','implicit','admin');
-INSERT INTO api_oauth_tokens (accesstoken,clientid,expiresin,refreshtoken,granttype,localuser) VALUES ('90128f7ed0cc45c5a91d76ca41a0953f','LOCAL_USER','2018-07-13 12:06:28','934ea81814f3ae04b55ce18bdb42c78c','implicit','admin');
-INSERT INTO api_oauth_tokens (accesstoken,clientid,expiresin,refreshtoken,granttype,localuser) VALUES ('22e737e8e581ee183fc9f787a6ff74c1','LOCAL_USER','2018-07-13 12:14:21','9e99c3c43571fd9905f3b61826b8f587','implicit','admin');
+INSERT INTO api_oauth_tokens (accesstoken,clientid,expiresin,refreshtoken,granttype,localuser) VALUES ('a092c55b3103de3073192783c8c2d6a0','LOCAL_USER','2018-07-13 13:33:27','91904ddd0b263f27c27e366b8a038025','implicit','admin');

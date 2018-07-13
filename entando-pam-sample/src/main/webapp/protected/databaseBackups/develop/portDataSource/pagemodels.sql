@@ -756,13 +756,16 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('heade
 </html>
 
 ');
-INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entando-page-bootstrap-hero','Bootstrap - Hero Unit','<frames>
+INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entando-page-bootstrap-hero','Bootstrap - Hero Unit','<?xml version="1.0" encoding="UTF-8"?>
+<frames>
 	<frame pos="0">
 		<descr>Navbar 1</descr>
+		<sketch x1="0" y1="0" x2="11" y2="0" />
 		<defaultWidget code="entando-widget-language_choose" />
 	</frame>
 	<frame pos="1">
 		<descr>Navbar 2</descr>
+		<sketch x1="0" y1="1" x2="11" y2="1" />
 		<defaultWidget code="entando-widget-navigation_bar">
 			<properties>
 				<property key="navSpec">code(homepage)</property>
@@ -771,88 +774,117 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
 	</frame>
 	<frame pos="2">
 		<descr>Navbar 3</descr>
+		<sketch x1="0" y1="2" x2="11" y2="2" />
 		<defaultWidget code="entando-widget-search_form" />
 	</frame>
 	<frame pos="3">
 		<descr>Navbar 4</descr>
+		<sketch x1="0" y1="3" x2="11" y2="3" />
 		<defaultWidget code="entando-widget-login_form" />
 	</frame>
 	<frame pos="4">
 		<descr>Toolbar 1</descr>
+		<sketch x1="0" y1="4" x2="11" y2="4" />
 	</frame>
 	<frame pos="5">
 		<descr>Hero Unit</descr>
+		<sketch x1="0" y1="5" x2="11" y2="5" />
 	</frame>
 	<frame pos="6">
 		<descr>Toolbar 2</descr>
+		<sketch x1="0" y1="6" x2="11" y2="6" />
 	</frame>
 	<frame pos="7" main="true">
 		<descr>Top Story</descr>
+		<sketch x1="0" y1="7" x2="11" y2="7" />
 	</frame>
 	<frame pos="8">
 		<descr>Box 1</descr>
+		<sketch x1="0" y1="8" x2="11" y2="8" />
 	</frame>
 	<frame pos="9">
 		<descr>Box 2</descr>
+		<sketch x1="0" y1="9" x2="11" y2="9" />
 	</frame>
 	<frame pos="10">
 		<descr>Box 3</descr>
+		<sketch x1="0" y1="10" x2="11" y2="10" />
 	</frame>
 	<frame pos="11">
 		<descr>Side 1</descr>
+		<sketch x1="0" y1="11" x2="11" y2="11" />
 	</frame>
 	<frame pos="12">
 		<descr>Side 2</descr>
+		<sketch x1="0" y1="12" x2="11" y2="12" />
 	</frame>
 	<frame pos="13">
 		<descr>Side 3</descr>
+		<sketch x1="0" y1="13" x2="11" y2="13" />
 	</frame>
 	<frame pos="14">
 		<descr>Side 4</descr>
+		<sketch x1="0" y1="14" x2="11" y2="14" />
 	</frame>
 	<frame pos="15">
 		<descr>Content 1</descr>
+		<sketch x1="0" y1="15" x2="11" y2="15" />
 	</frame>
 	<frame pos="16">
 		<descr>Content 2</descr>
+		<sketch x1="0" y1="16" x2="11" y2="16" />
 	</frame>
 	<frame pos="17">
 		<descr>Content 3</descr>
+		<sketch x1="0" y1="17" x2="11" y2="17" />
 	</frame>
 	<frame pos="18">
 		<descr>Content 4</descr>
+		<sketch x1="0" y1="18" x2="11" y2="18" />
 	</frame>
 	<frame pos="19">
 		<descr>Content 5</descr>
+		<sketch x1="0" y1="19" x2="11" y2="19" />
 	</frame>
 	<frame pos="20">
 		<descr>Side 5</descr>
+		<sketch x1="0" y1="20" x2="11" y2="20" />
 	</frame>
 	<frame pos="21">
 		<descr>Side 6</descr>
+		<sketch x1="0" y1="21" x2="11" y2="21" />
 	</frame>
 	<frame pos="22">
 		<descr>Side 7</descr>
+		<sketch x1="0" y1="22" x2="11" y2="22" />
 	</frame>
 	<frame pos="23">
 		<descr>Side 8</descr>
+		<sketch x1="0" y1="23" x2="11" y2="23" />
 	</frame>
 	<frame pos="24">
 		<descr>Footer 1</descr>
+		<sketch x1="0" y1="24" x2="11" y2="24" />
 	</frame>
 	<frame pos="25">
 		<descr>Footer 2</descr>
+		<sketch x1="0" y1="25" x2="11" y2="25" />
 	</frame>
 	<frame pos="26">
 		<descr>Footer 3</descr>
+		<sketch x1="0" y1="26" x2="11" y2="26" />
 	</frame>
 	<frame pos="27">
 		<descr>Footer 4</descr>
+		<sketch x1="0" y1="27" x2="11" y2="27" />
 	</frame>
 	<frame pos="28">
 		<descr>Footer 5</descr>
+		<sketch x1="0" y1="28" x2="11" y2="28" />
 	</frame>
-</frames>',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+</frames>
+
+',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
 <!DOCTYPE html>
 <html lang="en">
@@ -906,7 +938,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
                     <@wp.show frame=6 />
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top:20px">
                 <div class="span12">
                     <@wp.show frame=7 />
                 </div>

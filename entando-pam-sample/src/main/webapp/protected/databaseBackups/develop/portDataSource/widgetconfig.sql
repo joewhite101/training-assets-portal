@@ -30,3 +30,19 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetsho
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetshome',2,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetshome',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetshome',7,'login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetsdetailpage',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetsdetailpage',1,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="navSpec">code(homepage)</property></properties>
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetsdetailpage',2,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetsdetailpage',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetsdetailpage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="maxElemForItem">5</property><property key="contentType">AST</property><property key="modelId">2</property></properties>
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',1,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties><property key="navSpec">code(homepage)</property></properties>
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',2,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('assetssearchresults',7,'search_result',NULL);
