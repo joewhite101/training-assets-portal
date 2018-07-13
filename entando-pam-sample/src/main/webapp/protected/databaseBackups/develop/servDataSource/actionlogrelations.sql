@@ -41,3 +41,5 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (50,'administrators');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (51,'administrators');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (52,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (53,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (55,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (57,'free');

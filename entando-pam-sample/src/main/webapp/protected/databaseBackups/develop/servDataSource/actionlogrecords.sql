@@ -1749,3 +1749,139 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-07-13 11:13:40');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (54,'admin','2018-07-13 11:52:07','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
+charset=utf-8
+langen=assetsDetailPage
+showable=true
+parentPageCode=homepage
+langes=
+strutsAction=2
+mimeType=text/html
+pageCode=assetsdetailpage
+copyPageCode=
+groupSelectLock=true
+extraGroupNameToAdd=
+model=entando-page-bootstrap-hero
+group=free
+',NULL,'2018-07-13 11:52:07');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (55,'admin','2018-07-13 11:52:27','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
+charset=utf-8
+langen=assetsDetailPage
+showable=true
+parentPageCode=homepage
+langes=Activos
+strutsAction=2
+mimeType=text/html
+pageCode=assetsdetailpage
+copyPageCode=
+groupSelectLock=true
+extraGroupNameToAdd=
+model=entando-page-bootstrap-hero
+group=free
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">assetsDetailPage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">es</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Activos</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">assetsdetailpage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-07-13 11:52:27');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (56,'admin','2018-07-13 11:52:35','/do/Page','setDefaultWidgets','pageCode=assetsdetailpage
+',NULL,'2018-07-13 11:52:35');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (57,'admin','2018-07-13 11:54:46','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','userFilters=
+modelId=2
+entandoaction:saveListViewerConfig=Submit
+maxElemForItem=5
+categoryCode=
+filters=
+pageCode=assetsdetailpage
+filterKey=keyFilter_created
+linkDescr_en=
+linkDescr_es=
+widgetTypeCode=content_viewer_list
+maxElements=
+title_en=
+categories=
+userFilterKey=fulltext
+contentType=AST
+frame=7
+title_es=
+pageLink=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">assetsDetailPage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">es</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Activos</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">assetsdetailpage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-07-13 11:54:46');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (59,'admin','2018-07-13 12:03:18','/do/jacms/Content','save','Monotext:astvp=TBD
+Monotext:astteccon=TBD
+Monotext:astemail=a@a.com
+Number:astval=a@a.com
+Monotext:ID=1
+Enumerator:astsoc=Everis Argentina
+Monotext:asttech=TBD
+Enumerator:astbdu=Alliances
+Date:astlasuse=13/07/2018
+contentOnSessionMarker=AST_newContent
+extraGroupName=
+entandoaction:save=Submit
+Monotext:astname=PROY-WATER DSS
+Link:es_astdash=
+Date:astdate=13/07/2018
+Link:en_astdash=
+descr=assetsC
+Monotext:astadcon=a@a.com
+Enumerator:astun=Aerospacial
+Monolist:Enumerator:astapsec_0=Banking
+Monotext:astsum=Summary
+Enumerator:astanun=Aerospacial
+Enumerator:asttype=Herramienta
+Enumerator:astavl=Production
+status=
+',NULL,'2018-07-13 12:03:18');

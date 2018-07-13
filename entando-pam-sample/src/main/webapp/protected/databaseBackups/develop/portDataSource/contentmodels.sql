@@ -72,3 +72,12 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 #end
 <p class="text-right"><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>
 </article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'AST','Assets content model','<span>
+$content.astsum.text
+<span>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2,'AST','Asset List Model','<div class="search-result">
+  <h3><a href="$content.astdash.text">$content.astname.text</a></h3>
+  <span>$content.astsum.text</span>
+</div>
+<div class="hr-line-dashed"></div>',NULL);
