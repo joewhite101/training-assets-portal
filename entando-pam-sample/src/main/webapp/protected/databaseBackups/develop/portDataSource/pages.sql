@@ -5,3 +5,6 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('errorpage','service',
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('homepage','homepage',-1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('assetshome','homepage',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('assetsdetailpage','homepage',3,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('contactus','homepage',4,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('faq','homepage',5,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('assetshome2','homepage',6,'administrators');
