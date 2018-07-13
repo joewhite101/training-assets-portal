@@ -1,0 +1,54 @@
+body {
+    background-image: url("../img/sean-pollock-203658-unsplash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+#page-wrapper{
+    opacity: 1.0;
+}
+
+h1,label {
+    color: gray;
+}
+
+div .footer {
+    background: none repeat scroll 0 0 #ffffff00;
+    border-top: 1px solid #ffffff00;
+    opacity: 1.0;
+}
+
+div .foot {
+    background: none repeat scroll 0 0 #ffffff00;
+    border-top: 1px solid #ffffff00;    
+    opacity: 1.0;
+}
+
+.nav-header {
+    background: none repeat scroll 0 0 #ffffff00;
+    border-top: 1px solid #ffffff00;    
+    opacity: 1.0;
+}
+
+#login-form {
+    background-color: white;
+    width: 200px;
+    margin:auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#login-form img {
+    width:100px;
+}
+
+.navbar{
+    background: none repeat scroll 0 0 #ffffff00;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #ffffff00 !important;   
+}
