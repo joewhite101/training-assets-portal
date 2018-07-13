@@ -3,7 +3,7 @@
 
     <Environment name="logActiveFileOutput" value="true" type="java.lang.String" override="false" />
     <Environment name="logName" value="entando" type="java.lang.String" override="false" />
-    <Environment name="logFilePrefix" value="/Users/kspokas/projects/entando-training/code/entando-pam-sample/target/log_entando" type="java.lang.String" override="false" />
+    <Environment name="logFilePrefix" value="C:\\opt\\training-assets-portal\\entando-pam-sample\\target\\log_entando" type="java.lang.String" override="false" />
     <Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
     <Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
     <Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
@@ -14,10 +14,10 @@
     <Environment name="resourceRootURL" value="/entando/resources/" type="java.lang.String" override="false" />
     <Environment name="protectedResourceRootURL" value="/entando/protected/" type="java.lang.String" override="false" />
 
-    <Environment name="resourceDiskRootFolder" value="/Users/kspokas/projects/entando-training/code/entando-pam-sample/src/main/webapp/resources" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceDiskRootFolder" value="/Users/kspokas/projects/entando-training/code/entando-pam-sample/src/main/webapp/protected" type="java.lang.String" override="false" />
+    <Environment name="resourceDiskRootFolder" value="C:\\opt\\training-assets-portal\\entando-pam-sample\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceDiskRootFolder" value="C:\\opt\\training-assets-portal\\entando-pam-sample\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
 
-    <Environment name="indexDiskRootFolder" value="/Users/kspokas/projects/entando-training/code/entando-pam-sample/target/temp/indexdir" type="java.lang.String" override="false" />
+    <Environment name="indexDiskRootFolder" value="C:\\opt\\training-assets-portal\\entando-pam-sample\\target\\temp\\indexdir" type="java.lang.String" override="false" />
     
     <Environment name="portDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedDriver" type="java.lang.String" override="false" />
     <Environment name="servDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedDriver" type="java.lang.String" override="false" />
@@ -26,12 +26,12 @@
               type="javax.sql.DataSource" driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
               maxActive="8" maxIdle="4"
               username="agile" password="agile"
-              url="jdbc:derby:/Users/kspokas/projects/entando-training/code/entando-pam-sample/target/derby/production/entandoPort;create=true" />
+              url="jdbc:derby:C:\\opt\\training-assets-portal\\entando-pam-sample\\target/derby/production/entandoPort;create=true" />
 
     <Resource name="jdbc/servDataSource" auth="Container"
               type="javax.sql.DataSource" driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
               maxActive="8" maxIdle="4"
               username="agile" password="agile"
-              url="jdbc:derby:/Users/kspokas/projects/entando-training/code/entando-pam-sample/target/derby/production/entandoServ;create=true" />
+              url="jdbc:derby:C:\\opt\\training-assets-portal\\entando-pam-sample\\target/derby/production/entandoServ;create=true" />
 
 </Context>
