@@ -1,0 +1,291 @@
+Ciao Matteo, ti invio la request ‘salve e continua’ e ‘salva e approva’
+
+coyoteRequest = {Request@9566} "R( /multisito-procure/do/jacms/Content/Ajax/autosave.action)"
+
+cookies = null
+
+formats = {SimpleDateFormat[3]@9567}
+
+attributes = {ConcurrentHashMap@9568}  size = 1
+
+sslAttributesParsed = false
+
+locales = {ArrayList@9569}  size = 4
+
+notes = {HashMap@9570}  size = 0
+
+authType = null
+
+event = null
+
+comet = false
+
+internalDispatcherType = {DispatcherType@8956} "REQUEST"
+
+inputBuffer = {InputBuffer@9571}
+
+inputStream = {CoyoteInputStream@9572}
+
+reader = {CoyoteReader@9573}
+
+usingInputStream = false
+
+usingReader = false
+
+userPrincipal = null
+
+sessionParsed = false
+
+parametersParsed = false
+
+cookiesParsed = false
+
+secure = false
+
+subject = null
+
+postData = null
+
+parameterMap = {ParameterMap@9574}  size = 0
+
+parts = null
+
+partsParseException = null
+
+session = null
+
+requestDispatcherPath = {MessageBytes@9575} "/do/jacms/Content/Ajax/autosave.action"
+
+requestedSessionCookie = true
+
+requestedSessionId = "200EF85D3C3FEFE72C95016D1B80892A"
+
+requestedSessionURL = false
+
+requestedSessionSSL = false
+
+localesParsed = true
+
+parser = {StringParser@9577}
+
+localPort = -1
+
+remoteAddr = null
+
+remoteHost = null
+
+remotePort = -1
+
+localAddr = null
+
+localName = null
+
+asyncContext = null
+
+asyncSupported = {Boolean@8966} false
+
+pathParameters = {HashMap@9578}  size = 0
+
+connector = {Connector@8968} "Connector[HTTP/1.1-8080]"
+
+context = {StandardContext@8969} "StandardEngine[Catalina].StandardHost[localhost].StandardContext[/multisito-procure]"
+
+filterChain = {ApplicationFilterChain@9560}
+
+mappingData = {MappingData@9579}
+
+facade = {RequestFacade@9558}
+
+response = {Response@9580}
+
+URIConverter = null
+
+wrapper = {StandardWrapper@8972} "StandardEngine[Catalina].StandardHost[localhost].StandardContext[/multisito-procure].StandardWrapper[default]"
+
+ 
+
+ 
+
+----------------------------------------------------
+
+ 
+
+0 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9597} "descr" ->
+
+1 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9598} "contentOnSessionMarker" ->
+
+2 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9599} "Text:it_titolo" ->
+
+ key = "Text:it_titolo"
+
+value = {String[1]@9614}
+
+  0 = "2. Visura del Casellario (art. 33 T.U. 313/02) richiesta dall' interessato ààààààà"
+
+3 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9600} "Enumerator:categoria" ->
+
+4 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9601} "Hypertext:it_cosa_e" ->
+
+5 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9602} "Link:it_cnt_uff" ->
+
+6 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9603} "Hypertext:it_doc_rich" ->
+
+7 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9604} "Text:en_titolo" ->
+
+8 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9605} "Hypertext:en_cosa_e" ->
+
+9 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9606} "Link:en_cnt_uff" ->
+
+10 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9607} "Hypertext:en_doc_rich" ->
+
+11 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9608} "status" ->
+
+ 
+
+ 
+
+***********************************************************************************
+
+ 
+
+coyoteRequest = {Request@9712} "R( /multisito-procure/do/jacms/Content/edit.action)"
+
+cookies = null
+
+formats = {SimpleDateFormat[3]@9713}
+
+attributes = {ConcurrentHashMap@9714}  size = 1
+
+sslAttributesParsed = false
+
+locales = {ArrayList@9715}  size = 4
+
+notes = {HashMap@9716}  size = 0
+
+authType = null
+
+event = null
+
+comet = false
+
+internalDispatcherType = {DispatcherType@8956} "REQUEST"
+
+inputBuffer = {InputBuffer@9717}
+
+inputStream = {CoyoteInputStream@9718}
+
+reader = {CoyoteReader@9719}
+
+usingInputStream = false
+
+usingReader = false
+
+userPrincipal = null
+
+sessionParsed = false
+
+parametersParsed = true
+
+cookiesParsed = false
+
+secure = false
+
+subject = null
+
+postData = {byte[8192]@9778}
+
+parameterMap = {ParameterMap@9720}  size = 14
+
+parts = null
+
+partsParseException = null
+
+session = null
+
+requestDispatcherPath = {MessageBytes@9721} "/do/jacms/Content/edit.action"
+
+requestedSessionCookie = true
+
+requestedSessionId = "200EF85D3C3FEFE72C95016D1B80892A"
+
+requestedSessionURL = false
+
+requestedSessionSSL = false
+
+localesParsed = true
+
+parser = {StringParser@9723}
+
+localPort = -1
+
+remoteAddr = null
+
+remoteHost = null
+
+remotePort = -1
+
+localAddr = null
+
+localName = null
+
+asyncContext = null
+
+asyncSupported = {Boolean@8966} false
+
+pathParameters = {HashMap@9724}  size = 0
+
+connector = {Connector@8968} "Connector[HTTP/1.1-8080]"
+
+context = {StandardContext@8969} "StandardEngine[Catalina].StandardHost[localhost].StandardContext[/multisito-procure]"
+
+filterChain = {ApplicationFilterChain@9704}
+
+mappingData = {MappingData@9725}
+
+facade = {RequestFacade@9709}
+
+response = {Response@9726}
+
+URIConverter = null
+
+wrapper = {StandardWrapper@8972} "StandardEngine[Catalina].StandardHost[localhost].StandardContext[/multisito-procure].StandardWrapper[default]"
+
+ 
+
+-----------------------------------
+
+ 
+
+0 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9734} "descr" ->
+
+1 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9735} "contentOnSessionMarker" ->
+
+2 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9736} "Text:it_titolo" ->
+
+ key = "Text:it_titolo"
+
+value = {String[1]@9753}
+
+  0 = "2. Visura del Casellario (art. 33 T.U. 313/02) richiesta dall' interessato Ã²Ã²Ã²Ã²Ã²Ã²Ã²Ã²Ã²Ã²"
+
+3 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9737} "Enumerator:categoria" ->
+
+4 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9738} "Hypertext:it_cosa_e" ->
+
+5 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9739} "Link:it_cnt_uff" ->
+
+6 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9740} "Hypertext:it_doc_rich" ->
+
+7 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9741} "Text:en_titolo" ->
+
+8 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9742} "Hypertext:en_cosa_e" ->
+
+9 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9743} "Link:en_cnt_uff" ->
+
+10 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9744} "Hypertext:en_doc_rich" ->
+
+11 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9745} "extraGroupName" ->
+
+12 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9746} "status" ->
+
+13 = {Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry@9747} "entandoaction:saveAndApprove" ->

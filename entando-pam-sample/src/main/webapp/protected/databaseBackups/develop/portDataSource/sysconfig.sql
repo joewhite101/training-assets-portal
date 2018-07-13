@@ -97,20 +97,14 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 					<required>true</required>
 				</validations>
 			</attribute>
-			<attribute name="astvp" attributetype="Monotext" description="Asset Value Proposition" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+			<attribute name="astvp" attributetype="Monotext" description="Asset Value Proposition">
+				<validations />
 			</attribute>
 			<attribute name="asttech" attributetype="Monotext" description="Asset techniacl description" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<attribute name="asttype" attributetype="Enumerator" description="Asset Type" searchable="true" indexingtype="TEXT" separator=",">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<![CDATA[Herramienta, Acelerador]]>
 			</attribute>
 			<list name="astkey" attributetype="Monolist" description="Asset keywords">
@@ -119,68 +113,52 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 				</nestedtype>
 			</list>
 			<attribute name="astsoc" attributetype="Enumerator" description="Asset Society" searchable="true" indexingtype="TEXT" separator=",">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<![CDATA[Everis Argentina, Everis Italia, Everis Portugal, Everis Andorra]]>
 			</attribute>
 			<attribute name="astanun" attributetype="Enumerator" description="Asset Analytic Unit" searchable="true" indexingtype="TEXT" separator=",">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<![CDATA[Aerospacial,Aerospacial Chile, Adjuste Europa, Adjust Grupo, ,Adjuste Latam]]>
 			</attribute>
 			<attribute name="astun" attributetype="Enumerator" description="Asset UN" searchable="true" indexingtype="TEXT" separator=",">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<![CDATA[Aerospacial, Adjuste,BPO,BPXNET,Business]]>
 			</attribute>
 			<attribute name="astbdu" attributetype="Enumerator" description="Asset Business Development Unit" searchable="true" indexingtype="TEXT" separator=",">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<![CDATA[Alliances, Banking,BD Aeroepacial,BD Banking,BD Big Data,BD BPO]]>
 			</attribute>
 			<list name="astapsec" attributetype="Monolist" description="Asset Application Sector">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<nestedtype>
-					<attribute name="astapsec" attributetype="Enumerator" indexingtype="TEXT" separator=","><![CDATA[Banking,Health,Industry,Insurance]]></attribute>
+					<attribute name="astapsec" attributetype="Enumerator" indexingtype="TEXT" separator=",">
+						<validations />
+						<![CDATA[Banking,Health,Industry,Insurance]]>
+					</attribute>
 				</nestedtype>
 			</list>
 			<attribute name="astdate" attributetype="Date" description="Asset Pubblication Date" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<attribute name="astlasuse" attributetype="Date" description="Asset Last Use date" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<attribute name="astemail" attributetype="Monotext" description="Asset Sector Contact email" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<attribute name="astadcon" attributetype="Monotext" description="Asset Admin Contact email" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<attribute name="astteccon" attributetype="Monotext" description="Asset Technical Contact" searchable="true" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<list name="astrealast" attributetype="List" description="Asset''s Related Assets">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<nestedtype>
-					<attribute name="astrealast" attributetype="Enumerator" separator=","><![CDATA[TSF+,Entando,Altemista]]></attribute>
+					<attribute name="astrealast" attributetype="Enumerator" separator=",">
+						<validations />
+						<![CDATA[TSF+,Entando,Altemista]]>
+					</attribute>
 				</nestedtype>
 			</list>
 			<list name="astreltech" attributetype="List" description="Asset''s Related Technologies">
@@ -189,27 +167,20 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 				</nestedtype>
 			</list>
 			<attribute name="astavl" attributetype="Enumerator" description="Asset Availability" searchable="true" indexingtype="TEXT" separator=",">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<![CDATA[Production,Development]]>
 			</attribute>
 			<attribute name="astval" attributetype="Number" description="Valoracion" searchable="true" indexingtype="TEXT">
 				<validations>
-					<required>true</required>
 					<rangestart>0</rangestart>
 					<rangeend>5</rangeend>
 				</validations>
 			</attribute>
 			<attribute name="astdash" attributetype="Link" description="Asset Dashboard URL link" indexingtype="TEXT">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 			</attribute>
 			<attribute name="asthwto" attributetype="Composite" description="Asset How To information">
-				<validations>
-					<required>true</required>
-				</validations>
+				<validations />
 				<attributes>
 					<attribute name="asthtatch" attributetype="Attach" description="Asset How To information attachment" />
 					<attribute name="asthtlnk" attributetype="Link" description="Asset How To information URL" indexingtype="TEXT" />
